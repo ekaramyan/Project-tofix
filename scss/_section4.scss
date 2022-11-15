@@ -1,0 +1,38 @@
+/* page 4 */
+.section2
+{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+.content
+{
+position: relative;
+display: flex;
+text-align: center;
+padding-bottom: 30px;
+}
+.btn-black {
+    position: absolute;
+    left: 50%;
+    margin-top: 60px;
+    width: 140px;
+    height: 55px;
+    border: 3px solid #ffffff;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+
+    line-height: 60px;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    transition: background .1s linear, color .1s linear;
+}
+.btn-black:hover {
+    background-color: #fff;
+    color: #333;
+}

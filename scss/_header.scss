@@ -1,0 +1,99 @@
+.dws-menu{
+    background-color: rgb(24, 24, 24);
+    position: fixed; /* Фиксированное положение */
+    right: 0px; /* Расстояние от правого края окна браузера */
+    top: -1%; /* Расстояние сверху */
+    padding: 5px; /* Поля вокруг текста */         
+    /*border: 1px solid rgb(24, 24, 24);*/ /* Параметры рамки */
+    width: 100%;
+    max-height: 70px;
+    left: 0%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    ul{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        background-color: rgb(24, 24, 24);
+        font-family: Helvetica;
+        margin-top: 10px;
+       }
+
+       li{
+        list-style: none;
+        padding: 10px;
+       }
+       li a{
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        position: relative;
+        padding: 5px;
+       }
+       li a i{
+        margin-right: 10px;
+       }
+       li a::before{
+        content: '';
+        width: 0;
+        height: 3px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 90%;
+        left: 0;
+        transition: .4s;
+       }
+       li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 90%;
+        right: 0;
+        transition: .4s;
+       }
+       li:hover{
+        background-color: none;
+       }
+       li:hover a::before{
+        width: 50%;
+        transform: translateX(100%);
+       }
+       li:hover a::after{
+        width: 50%;
+        transform: translateX(-100%);
+       }
+       li a:hover{
+        color: grey;
+       }
+   }
+
+   .loginbtn {
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    text-decoration-line: none;
+    text-decoration: none;
+    align-self: flex-end;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    order: 0;
+    flex-grow: 0;
+   /* Button */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height, or 147% */
+    letter-spacing: 0.2px;
+    justify-self: end;
+
+    &:hover {
+        color: #000000;
+        background-color: #ffffff;   
+        
+    }
+}

@@ -1,0 +1,250 @@
+/* page 3 */
+.section1
+{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px 199px;
+
+}
+.contents
+{
+    position: static;
+    width: 985px;
+    height: 854.52px;
+    left: calc(50% - 985px/2);
+    top: 50px;
+}
+.cards
+{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: relative;
+width: 985px;
+height: 648.52px;
+left: 0px;
+top: 55px;
+}
+.card1
+{
+    position: relative;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px 0px;
+
+position: static;
+width: 476px;
+height: 647px;
+left: 509px;
+top: 0.76px;
+
+/* light background */
+
+background: #FFFFFF;
+border: 1px solid #D3D3D3;
+box-sizing: border-box;
+/* shadow */
+
+box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 3px;
+}
+
+.board-notifications
+{
+position: absolute;
+width: 379px;
+height: 276px;
+left: 58.5%;
+top: 300px;
+background:none;
+filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+border-radius: 12px;
+/* Inside Auto Layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 30px 0px;
+}
+.card1__heading
+{
+    background: rgb(255, 255, 255);
+}
+.card1-header{
+    text-decoration: none;
+    text-align: center;
+/* Title */
+
+font-family: Helvetica;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.1px;
+
+/* first text */
+
+color: #000000;
+background: rgb(255, 255, 255);
+}
+.card1-paragraph
+{
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+    background: rgb(255, 255, 255);
+    padding-top: 6%;
+}
+.card__btn_Try
+{
+    width: 190px;
+    height: 52px;
+    position:absolute;
+    left: 68%;
+    top: 28%;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    background: rgb(70, 81, 250);
+
+    border: 3px solid rgb(70,81,250);
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 12px;
+    background: rgb(70, 81, 250);
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    transition: all .1s linear, color .1s linear;
+   }
+.card__btn_Try:hover {
+    background-color: rgb(56, 66, 209);;
+    color: rgb(168, 168, 168);
+    border: 3px solid rgb(56,66,209);
+   }
+/* card 2 */
+.card2
+{
+    position: relative;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px 0px;
+
+position: static;
+width: 476px;
+height: 648.52px;
+left: 0px;
+top: 0px;
+
+/* light background */
+
+background: #FFFFFF;
+border: 1px solid #D3D3D3;
+box-sizing: border-box;
+/* shadow */
+
+box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 23px;
+}
+.card__btn_signup
+{
+    width: 157px;
+    height: 52px;
+    position:absolute;
+    left: 18%;
+    top: 28%;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    background: rgb(70, 81, 250);
+
+    border: 3px solid rgb(70,81,250);
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 12px;
+    background: rgb(70, 81, 250);
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    transition: all .1s linear, color .1s linear;
+   }
+.card__btn_signup:hover {
+    background-color: rgb(56, 66, 209);;
+    color: rgb(168, 168, 168);
+    border: 3px solid rgb(56,66,209);
+   }
+   .macbook
+   {
+    position: relative;
+    top: -140%;
+    background:none;
+   }
+   .macbook__screen-mask
+   {
+    position: absolute;
+    width: 312.33px;
+    height: 195.18px;
+    left: 81.84px;
+    top: 391.13px;
+    background: url(./img/section2/SCREEN_MASK.png);
+   }
+   .macbook__grip
+   {
+    position: absolute;
+    width: 54.16px;
+    height: 5.02px;
+    left: 212.82px;
+    top: 595.44px;
+    
+    background: #9FA2A5;
+   }                                       
+    .macbook__base-bottom
+    {
+        position: absolute;
+        width: 405.12px;
+        height: 4.72px;
+        left: 35.44px;
+        top: 603.81px;
+        
+        background: #9FA2A5;
+    }
+    .macbook__base
+    {
+        position: absolute;
+        width: 405.12px;
+        height: 8.37px;
+        left: 35.44px;
+        top: 595.44px;
+        background: #D8D8D8;
+    }
+    .macbook__screen
+    {
+        position: absolute;
+width: 330.58px;
+height: 222.42px;
+left: 72.71px;
+top: 382px;
+
+background: #000000;
+border: 1.52131px solid #9FA2A5;
+box-sizing: border-box;
+border-radius: 4.56393px 4.56393px 0px 0px;
+    }
