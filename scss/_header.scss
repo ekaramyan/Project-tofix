@@ -1,25 +1,22 @@
-.dws-menu{
+.menu{
     background-color: rgb(24, 24, 24);
     position: fixed; /* Фиксированное положение */
-    right: 0px; /* Расстояние от правого края окна браузера */
-    top: -1%; /* Расстояние сверху */
     padding: 5px; /* Поля вокруг текста */         
-    /*border: 1px solid rgb(24, 24, 24);*/ /* Параметры рамки */
-    width: 100%;
+    width: 100vw;
     max-height: 70px;
-    left: 0%;
     z-index: 2;
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-top: 1%;
 
     ul{
         display: flex;
-        padding: 0;
         justify-content: center;
+        justify-self: center;
         background-color: rgb(24, 24, 24);
         font-family: Helvetica;
-        margin-top: 10px;
+
        }
 
        li{
@@ -72,22 +69,16 @@
        }
    }
 
-   .loginbtn {
+   .login-btn {
     border: 2px solid #ffffff;
-    border-radius: 4px;
-    text-decoration-line: none;
     text-decoration: none;
-    align-self: flex-end;
+    align-self: center;
     font-size: 18px;
-    color: rgb(255, 255, 255);
-    order: 0;
-    flex-grow: 0;
-   /* Button */
-    font-style: normal;
+    color: #fff;
+    padding: 0.2% 0.5%;
     font-weight: 500;
     font-size: 17px;
     line-height: 25px;
-    /* identical to box height, or 147% */
     letter-spacing: 0.2px;
     justify-self: end;
 
