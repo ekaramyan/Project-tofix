@@ -1,10 +1,10 @@
 .menu{
-    background-color: rgb(24, 24, 24);
+    background: #191D26;
     position: fixed; /* Фиксированное положение */
     padding: 5px; /* Поля вокруг текста */         
     width: 100vw;
     max-height: 70px;
-    z-index: 2;
+    z-index: 5;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -14,7 +14,6 @@
         display: flex;
         justify-content: center;
         justify-self: center;
-        background-color: rgb(24, 24, 24);
         font-family: Helvetica;
 
        }

@@ -41,8 +41,9 @@
     max-height: 65px;
     max-width: 330px; 
     gap: 5%;
+    justify-content: space-around;
     .btn{
-        padding: 5% 8%;
+        padding: 3% 5%;
         justify-content: center;
     }
 }
@@ -69,17 +70,32 @@
     font-size: 15px;
     color: #ffffff;
     font-weight: 700;
-    background-color: rgb(24, 24, 24);
     transition: all .1s;
     &:hover {
         background-color: #fff;
         color: #333;
     }
 }
-.bottom
+.bottom-elements
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    &::before{
+        content: '';
+        position: absolute;
+        display: block;
+        z-index: 2;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(180deg, #00000000 0%, #191d2600 0.01%, #191D26 66.15%);
+    }
+}
+.bottom-img
 {
     display: block;
-    height: 80%;
+    height: 100%;
     max-height: fit-content;
     overflow: hidden;
+
 }
