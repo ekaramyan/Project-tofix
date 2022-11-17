@@ -1,13 +1,12 @@
 /* page 4 */
 .section2
 {
-    display: inline-block;
+    display: flex;
     align-items: center;
     text-align: center;
 }
 .content
 {
-position: relative;
 display: flex;
 text-align: center;
 padding-bottom: 30px;
