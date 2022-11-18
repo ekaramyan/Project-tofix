@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/graphik");
 *, h1, h2, h3, h4, h5, h6, p, ul, a {
   margin: 0;
   padding: 0;
@@ -14,8 +15,7 @@ html, body {
 }
 
 * {
-  background: #191D26;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Graphik", sans-serif;
 }
 
 *,
@@ -55,6 +55,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background: #191D26;
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
@@ -98,7 +99,7 @@ select {
 }
 .body {
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Graphik", sans-serif;
 }
 
 p, a {
@@ -215,6 +216,7 @@ header {
   font-size: 17px;
   line-height: 25px;
   letter-spacing: 0.2px;
+  background: #191D26;
 }
 .login-btn:hover {
   color: #000000;
@@ -511,6 +513,11 @@ header {
   align-items: center;
   row-gap: 50px;
   width: 100%;
+  padding: 7% 0;
+}
+
+.btn-black {
+  background: #191D26;
 }
 
 .partners {
@@ -528,6 +535,49 @@ header {
   width: 100%;
 }
 
+.testimonial p {
+  color: #fff;
+  background: none;
+}
+.testimonial__items {
+  display: grid;
+  grid-template: repeat(auto-fit, minmax(150px, 1fr))/1fr 1fr;
+  gap: 22px;
+}
+.testimonial__card {
+  background: #1D2129;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 10%;
+  height: fit-content;
+}
+.testimonial__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+}
+
+.testimonial-client {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.testimonial-client__avatar {
+  display: flex;
+  column-gap: 15px;
+}
+.testimonial-client__avatar img {
+  background: none;
+}
+.testimonial-client__text {
+  font-weight: 400;
+}
+
 section {
   padding-top: 2%;
+}
+
+.section {
+  padding: 8% 16%;
 }

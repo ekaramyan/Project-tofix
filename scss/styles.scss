@@ -11,8 +11,8 @@ html, body{
     min-height: 100vh;
 }
 *{
-  background: #191D26;
-    font-family: Arial, Helvetica, sans-serif;
+
+    font-family: 'Graphik', sans-serif;
 }
 
 
@@ -53,6 +53,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background: #191D26;
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
@@ -94,10 +95,11 @@ select {
     scroll-behavior: auto !important;
   }
 }
+@import url('https://fonts.cdnfonts.com/css/graphik');
 .body
 {
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Graphik', sans-serif;
 }
 p, a{
   text-decoration: none;
@@ -117,12 +119,16 @@ p, a{
       color: #333;
   }
 }
-@import '_header', '_section1', '_section2','_section3','_section4','_section5';
+@import '_header', '_section1', '_section2','_section3','_section4','_section5','_section6';
 // ,'_footer'
 
 
 section{
   padding-top: 2%;
+}
+.section
+{
+    padding: 8% 16%;
 }
 
 @import '_responsive';
