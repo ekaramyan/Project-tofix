@@ -1,37 +1,44 @@
 /* page 4 */
-.section2
-{
+.section2 {
+    padding: 5% 10%;
+}
+.gallery {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-}
-.content
-{
-display: flex;
-text-align: center;
-padding-bottom: 30px;
-}
-.btn-black {
-    position: absolute;
-    left: 50%;
-    margin-top: 60px;
-    width: 140px;
-    height: 55px;
-    border: 3px solid #ffffff;
-    font-family: Helvetica;
-    font-size: 15px;
-    color: #ffffff;
-    font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-    background-color: rgb(24, 24, 24);
+    justify-content: center;
 
-    line-height: 60px;
-    transform: translate(-50%, -50%);
-    border-radius: 12px;
-    transition: background .1s linear, color .1s linear;
+
+		&__items {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1 1 25%;
+            column-gap: 33px;
+            row-gap: 44px;
+            justify-content: center;
+            align-items: center;
+            padding: 4% 0;
+		}
+        &__item{
+            display: block;
+            width: 20%;
+            align-self: center;
+            justify-self: center;
+            // place-self: center;
+            img{
+                width: 100%;
+                border-radius: 12px;
+                overflow: hidden;
+            }
+
+        }
 }
-.btn-black:hover {
-    background-color: #fff;
-    color: #333;
+.item-5, .item-7{
+    width: 35%;
+    img{
+        height: 100%;
+    }
+
 }
+
+
