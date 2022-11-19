@@ -2,7 +2,7 @@
 
     &__wrapper
     {
-
+        padding: 5% 0;
     }
 }
 .testimonial {
@@ -24,10 +24,14 @@
         padding: 10%;
         height: fit-content;
         &-1 {
+           padding: 5%;
         }
         &-2 {
         }
         &-3 {
+            padding: 5%;
+            margin-top: -10%;
+            max-width: 100%;
         }
         &-4 {
         }
