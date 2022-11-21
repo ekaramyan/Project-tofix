@@ -130,7 +130,6 @@ header {
   height: 100%;
   background: #191D26;
   position: fixed; /* Фиксированное положение */
-  padding: 5px; /* Поля вокруг текста */
   display: flex;
   justify-content: center;
   z-index: 5;
